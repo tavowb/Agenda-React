@@ -6,13 +6,13 @@ import { MdMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className=" footer bg-black text-white">
-      <div class="container">
-        <div class="row ">
-          <div class="col-xl-4 offset-xl-1 col-lg-2 col-md-6">
-            <div class="mt-3">
+    <footer className=" footer bg-primary text-white">
+      <div className="container">
+        <div className="row ">
+          <div className="col-xl-4 offset-xl-1 col-lg-2 col-md-6">
+            <div className="mt-3">
               <h4>Email</h4>
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li>
                   <div className="mb-2  ps-4 d-flex align-items-start">
                     <MdMail className="me-2 mt-1"></MdMail>
@@ -29,10 +29,10 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-3 col-md-6">
+          <div className="col-xl-3 col-lg-3 col-md-6">
             <div className="mt-3">
               <h4>Social</h4>
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li>
                   <div className="mb-2 ps-4 d-flex align-items-start">
                     <AiFillGithub className="me-2 mt-1"></AiFillGithub>
@@ -56,29 +56,30 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-xl-3 col-lg-3 col-md-6">
+          <div className="col-xl-3 col-lg-3 col-md-6">
             <div className="mt-3">
               <h4>Phone</h4>
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li>
-                  <div className=" mb-2 ps-4 d-flex align-items-start">
-                    <BsPhoneFill className=""></BsPhoneFill>
+                  <div className=" mb-2 ps-4 ">
+                    <BsPhoneFill></BsPhoneFill>
                     +57 3053058528
                   </div>
                 </li>
                 <li>
-                  <div className="mb-2 ps-4 d-flex align-items-start">
-                    <BsPhoneFill className=""></BsPhoneFill>
+                  <div className="mb-2 ps-4 ">
+                    <BsPhoneFill></BsPhoneFill>
                     +57 3124341827
                   </div>
                 </li>
               </ul>
             </div>
           </div>
+          <hr />
         </div>
 
-        <div class="d-flex justify-content-center">
-          <div class="copyright">
+        <div className="d-flex justify-content-center">
+          <div className="copyright">
             <p>
               Developed and maintained by:{" "}
               <a
